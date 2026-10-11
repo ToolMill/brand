@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <rect width="512" height="512" fill="#e2b23a"/>
+  <!-- inverted: gold field, dark mill, white spark blade -->
+  <g transform="translate(256 256) rotate(-20)">
+    <rect x="28" y="-34" width="176" height="68" rx="34" fill="#1c2733"/>
+    <rect x="28" y="-34" width="176" height="68" rx="34" fill="#1c2733" transform="rotate(90)"/>
+    <rect x="28" y="-34" width="176" height="68" rx="34" fill="#1c2733" transform="rotate(180)"/>
+    <rect x="28" y="-34" width="176" height="68" rx="34" fill="#ffffff" transform="rotate(270)"/>
+    <circle r="40" fill="#e2b23a" stroke="#1c2733" stroke-width="14"/>
+  </g>
+</svg>
