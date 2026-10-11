@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 400" width="1280" height="400">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1c2733"/><stop offset="1" stop-color="#101820"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="400" rx="28" fill="url(#g)"/>
+  <!-- subtle grid -->
+  <g stroke="#2b3a49" stroke-width="1" opacity="0.6">
+    <path d="M0 100H1280M0 200H1280M0 300H1280M160 0V400M320 0V400M480 0V400M640 0V400M800 0V400M960 0V400M1120 0V400"/>
+  </g>
+  <!-- wordmark -->
+  <text x="88" y="150" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-weight="700" font-size="54" fill="#e2b23a" letter-spacing="1">TOOLMILL</text>
+  <text x="88" y="222" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-weight="700" font-size="60" fill="#ffffff">Hiring Signals</text>
+  <text x="88" y="262" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="28" fill="#c7d0d9">Company domain in. Open jobs out, via official ATS APIs.</text>
+  <text x="88" y="298" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="28" fill="#c7d0d9">Greenhouse · Lever · Ashby · Workable · SmartRecruiters · more</text>
+  <!-- verdict chips -->
+  <g font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="22" font-weight="700">
+    <rect x="88" y="326" width="170" height="44" rx="22" fill="#1f8a5b"/><text x="173" y="356" text-anchor="middle" fill="#fff">new roles</text>
+    <rect x="272" y="326" width="190" height="44" rx="22" fill="#b3472f"/><text x="367" y="356" text-anchor="middle" fill="#fff">closed roles</text>
+    <rect x="476" y="326" width="120" height="44" rx="22" fill="#e2b23a"/><text x="536" y="356" text-anchor="middle" fill="#1c2733">by dept</text>
+    <rect x="610" y="326" width="150" height="44" rx="22" fill="#5c6873"/><text x="685" y="356" text-anchor="middle" fill="#fff">remote</text>
+  </g>
+  <!-- envelope mark, right -->
+  <g transform="translate(940 90)">
+    <rect x="0" y="150" width="50" height="80" fill="#5c6873"/><rect x="70" y="110" width="50" height="120" fill="#5c6873"/>
+    <rect x="140" y="130" width="50" height="100" fill="#5c6873"/><rect x="210" y="40" width="50" height="190" fill="#1f8a5b"/>
+    <path d="M25 140 L95 100 L165 120 L235 30" fill="none" stroke="#e2b23a" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="235" cy="30" r="14" fill="#e2b23a"/>
+  </g>
+</svg>
